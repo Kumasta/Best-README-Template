@@ -1,9 +1,10 @@
 ### General Assembly Project-4: Full-stack Project. 
-#  --Hidden Gems--
+#  --Giveaway Bae--
 
-Contributers: Mayur Kumar, Bashar
+Contributers: Mayur Kumar, Bashar Othman
 
 ### Project Link : TBA
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/94964514/159168887-5d5fdad7-fa66-4b60-abf1-4a6e04b6650d.png">
 
 ## Table of Contents
 
@@ -19,7 +20,6 @@ Contributers: Mayur Kumar, Bashar
     - [Front-end components](#front-end-components)
       - [Nav-Bar](#nav-bar)
       - [Home Page](#home-page)
-      - [Map Page](#map-page)
       - [Chowcase](#showcase)
       - [Gem Form](#gem-form)
       - [Profile Page](#profile-page)
@@ -36,47 +36,39 @@ Contributers: Mayur Kumar, Bashar
 
 
 ## Languages, Packages and, technology used:
-- Javascript
-- SASS (CSS)
+- JavaScript
 - JSX (HTML5 via react)
+- Python 
 
 ### Back-end
-- express: ^4.17.2,
-- jsonwebtoken: ^8.5.1,
-- mongoose: ^6.2.1,
-- mongoose-unique-validator: 2.0.3
+- django
+- psycopg2-binary
+- pylint 
+- autopep8
+- djangorestframework
+- pyjwt
 
 ### Front-end
-- axios: ^0.25.0,
-- bootstrap: 5.1.3,
-- buffer: ^6.0.3,
-- eslint-plugin-react: ^7.28.0,
-- mapbox-gl: ^2.7.0,
-- react: ^17.0.2,
-- react-bootstrap: ^2.1.2,
-- react-dom: ^17.0.2,
-- react-map-gl: ^7.0.5,
-- react-router-dom: ^6.2.1,
-- react-router-hash-link: ^2.4.3,
-- react-scripts: 5.0.0,
-- react-select: ^5.2.2,
-- sass: ^1.49.7
-
-## Install
-<img width="184" alt="Screenshot 2022-02-21 at 17 42 32" src="https://user-images.githubusercontent.com/94964514/155004644-f473a963-d049-421c-bae0-3f0cb4125834.png">
-
-If working on local server:  
-
-1. Install mongoDB [https://docs.mongodb.com/guides/server/install/] and start mongo server.       
-2. Start database from your terminal `mongosh`   
-Back end terminal         
-3. Install packages `yarn init`   
-4. seed database `yarn seed`   
-5. start server `yarn serve`   
-
-Front End terminal    
-1. Install packages `yarn`   
-2. start site server `yarn start`      
+- @chakra-ui/icons
+- @chakra-ui/react
+- @emotion/react
+- @emotion/styled
+- @react-icons/all-files
+- @testing-library/jest-dom
+- @testing-library/react
+- @testing-library/user-event
+- axios
+- buffer
+- emotion-theming
+- fontsource-inter
+- framer-motion
+- react
+- react-dom
+- react-dotenv
+- react-router
+- react-router-dom
+- react-scripts
+- react-select
 
 ## Approach
 
