@@ -13,7 +13,6 @@ Contributers: Mayur Kumar, Bashar Othman
 - [Languages, Packages and, technology used](#languages-packages-and-technology-used)
   - [Back-end](#back-end)
   - [Front-end](#front-end)
-- [Install](#install)
 - [Approach](#approach)
     - [Document-Model-Breakdown](#document-model-breakdown)
     - [API-End-Points](#api-end-points)
@@ -85,39 +84,27 @@ Contributers: Mayur Kumar, Bashar Othman
 (+ Body required)   
 ({ } id/text/token)
 
-#### Main documents (pins)
-- Get all `Get /api/pins`
-- Get one `Get /api/pins/{pin ID}`
-- Post new*+ `POST /api/pins`    
-![image](https://user-images.githubusercontent.com/94964514/155016630-0338f716-fdda-4520-bf81-410db1c59b4e.png)
-- Update one*+ `PUT /api/pins/{pin ID}`   
-![image](https://user-images.githubusercontent.com/94964514/155016825-4e562a86-c2c2-4cae-b216-e0a3250a73e1.png)
-- Delete one* `DELETE /api/pins/{pin ID}`
+#### Giveaways
+- Get all `Get /api/giveaways`
+- Get one `Get /api/giveaways/{giveaway ID}`
+- Post new*+ `POST /api/giveaways`    
+![image](https://user-images.githubusercontent.com/94964514/159490560-8f6cc06d-e68a-4fd5-9f06-eb32d55d2aa7.png)
+- Update one*+ `PUT /api/giveaways/{giveaway ID}`   
+![image](https://user-images.githubusercontent.com/94964514/159490641-bedbb702-c71f-45b2-a78a-e85318c0b998.png)
+- Delete one* `DELETE /api/giveaways/{giveaway ID}`
 
-#### Pin Rating
-- Add rating*+ `POST /api/pins/{pin ID}/rating` (Between 1 - 5).   
-![image](https://user-images.githubusercontent.com/94964514/155017307-eb729923-826f-41f9-8228-df191e30989e.png)
-- Update rating *+ `PUT /api/pins/{pin ID}/rating/{rating ID}` (Between 1 - 5)    
-![image](https://user-images.githubusercontent.com/94964514/155017462-bd1b5bb2-b093-4590-b511-c1bc16226987.png)
-
-#### Pin Comment 
-(During development we changed terminology from review to comments)     
-- Add comment*+ `POST /api/pins/{pin ID}/reviews`    
-![image](https://user-images.githubusercontent.com/94964514/155023193-371db78c-07f7-4eef-9be8-a2ae3647470d.png)
-- Updated comment*+ `PUT /api/pins/{pin ID}/reviews/{review ID}`   
-![image](https://user-images.githubusercontent.com/94964514/155023341-2a0a6ff4-59de-4551-9b51-cba606e84f41.png)
-- Delete comment* `DELETE /api/pins/{pin ID}/reviews/{review ID}`
-
-#### Comment like
-- Like comment*+ `POST /api/pins/{pin ID}/review/{review ID}/like`        
-![image](https://user-images.githubusercontent.com/94964514/155023611-43401d2b-ed57-4d16-abe0-e905c551c4e2.png)
-- Unlike comment* `DELETE /api/pins/{pin ID}/review/{review ID}/like/{like ID}`
+#### Comments   
+- Add comment*+ `POST /api/giveaways/comments/`    
+![image](https://user-images.githubusercontent.com/94964514/159491006-67b074b8-77ef-4b38-a852-9b4f35d0ec4f.png)
+- Updated comment*+ `PUT /api/giveaways/comments/{comment ID}`   
+![image](https://user-images.githubusercontent.com/94964514/159491115-6aadcd27-b692-4fd8-8fda-f277654dec96.png)
+- Delete comment* `DELETE /api/giveaways/comments/{comment ID}`
 
 #### Login / Register
 - Register User+ `POST /api/register`    
-![image](https://user-images.githubusercontent.com/94964514/155023903-53a24d70-efe8-4591-8ed0-2f9117f5d159.png)
+![image](https://user-images.githubusercontent.com/94964514/159491227-7023c17c-9e13-4437-8cd4-6fb09d0c2068.png)
 - Login user+ `POST /api/login`     
-![image](https://user-images.githubusercontent.com/94964514/155024015-daf589cd-0bf8-4dba-806d-80e4b78a1f93.png)
+![image](https://user-images.githubusercontent.com/94964514/159491261-a0d3b79c-e058-48f9-b9fc-e95e52d61b60.png)
 
 #### User Profile
 - Get one profile `GET /api/profile`    
