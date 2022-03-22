@@ -1,7 +1,7 @@
 ### General Assembly Project-4: Full-stack Project. 
 #  --Giveaway Bae--
 
-Contributers: Mayur Kumar, Bashar Othman
+Contributors: Mayur Kumar, Bashar Othman
 
 ### Project Link : TBA
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/94964514/159168887-5d5fdad7-fa66-4b60-abf1-4a6e04b6650d.png">
@@ -19,13 +19,13 @@ Contributers: Mayur Kumar, Bashar Othman
     - [Front-end components](#front-end-components)
       - [Nav-Bar](#nav-bar)
       - [Home Page](#home-page)
-      - [Chowcase](#showcase)
+      - [Showcase](#showcase)
       - [Gem Form](#gem-form)
       - [Profile Page](#profile-page)
       - [Styling](#styling)
       - [Seeding](#seeding)
 - [Challenges](#challenges)
-- [Future Improvments](#future-improvements--changes)
+- [Future Improvements](#future-improvements--changes)
 - [Main Takeaways](#main-takeaways)
 
 ## Brief
@@ -93,7 +93,7 @@ Contributers: Mayur Kumar, Bashar Othman
 ![image](https://user-images.githubusercontent.com/94964514/159490641-bedbb702-c71f-45b2-a78a-e85318c0b998.png) 
 - Delete one* `DELETE /api/giveaways/{giveaway ID}/`    
 
-For the purpose of a user being able to "watch" a giveaway, we stored the giveaway Id in the user porfile in a watchlist and the user ID is stored in the giveaway record in a watcher_list field. At the time of building this project we were not able to figure out a smooth way to do this in one request. So we made an end-point for the givewaway so that the User does not need to be the owner of the giveaway to update that ID array. For ease of checking & updating the array we create an unpopulated GET endpoint to get and array of numbers and not objects. 
+For the purpose of a user being able to "watch" a giveaway, we stored the giveaway Id in the user profile in a watchlist and the user ID is stored in the giveaway record in a watcher_list field. At the time of building this project we were not able to figure out a smooth way to do this in one request. So we made an end-point for the giveaway so that the User does not need to be the owner of the giveaway to update that ID array. For ease of checking & updating the array we create an unpopulated GET endpoint to get an array of numbers and not objects. 
 
 - Get one unpopulated giveaway `GET /api/giveaways/update/{giveaway ID}/`     
 - Update giveaway* (Non-owner) `PUT /api/giveaways/update/{giveaway ID}/`     
@@ -120,7 +120,7 @@ For the purpose of a user being able to "watch" a giveaway, we stored the giveaw
 - Delete user* `DELETE /api/profile/{user ID}/` 
 
 #### Regions & Categories
-For the purpose of populateing drop down sellect forms  
+For the purpose of populating drop down select forms  
 - Get all regions `Get /api/regions/` 
 - Get all categories `Get /api/categories/` 
 
@@ -145,3 +145,5 @@ For the purpose of populateing drop down sellect forms
 ## Future Improvements / Changes
 
 ## Main Takeaways
+
+
