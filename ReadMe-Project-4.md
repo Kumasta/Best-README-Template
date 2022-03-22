@@ -85,35 +85,37 @@ Contributers: Mayur Kumar, Bashar Othman
 ({ } id/text/token)
 
 #### Giveaways
-- Get all `Get /api/giveaways`
-- Get one `Get /api/giveaways/{giveaway ID}`
-- Post new*+ `POST /api/giveaways`    
+- Get all `Get /api/giveaways/`
+- Get one `Get /api/giveaways/{giveaway ID}/`
+- Post new*+ `POST /api/giveaways/`    
 ![image](https://user-images.githubusercontent.com/94964514/159490560-8f6cc06d-e68a-4fd5-9f06-eb32d55d2aa7.png)
-- Update one*+ `PUT /api/giveaways/{giveaway ID}`   
+- Update one*+ `PUT /api/giveaways/{giveaway ID}/`   
 ![image](https://user-images.githubusercontent.com/94964514/159490641-bedbb702-c71f-45b2-a78a-e85318c0b998.png)
-- Delete one* `DELETE /api/giveaways/{giveaway ID}`
+- Delete one* `DELETE /api/giveaways/{giveaway ID}/`
 
 #### Comments   
 - Add comment*+ `POST /api/giveaways/comments/`    
 ![image](https://user-images.githubusercontent.com/94964514/159491006-67b074b8-77ef-4b38-a852-9b4f35d0ec4f.png)
-- Updated comment*+ `PUT /api/giveaways/comments/{comment ID}`   
+- Updated comment*+ `PUT /api/giveaways/comments/{comment ID}/`   
 ![image](https://user-images.githubusercontent.com/94964514/159491115-6aadcd27-b692-4fd8-8fda-f277654dec96.png)
-- Delete comment* `DELETE /api/giveaways/comments/{comment ID}`
+- Delete comment* `DELETE /api/giveaways/comments/{comment ID}/`
 
-#### Login / Register
-- Register User+ `POST /api/register`    
+#### Login & Register
+- Register User+ `POST /api/register/`    
 ![image](https://user-images.githubusercontent.com/94964514/159491227-7023c17c-9e13-4437-8cd4-6fb09d0c2068.png)
-- Login user+ `POST /api/login`     
+- Login user+ `POST /api/login/`     
 ![image](https://user-images.githubusercontent.com/94964514/159491261-a0d3b79c-e058-48f9-b9fc-e95e52d61b60.png)
 
 #### User Profile
-- Get one profile `GET /api/profile`    
-- Update own profile*+ `GET /api/profile`    
-![image](https://user-images.githubusercontent.com/94964514/155024386-6dac1ce5-6922-4580-b11a-183239e4f702.png)
+- Get one profile `GET /api/profile/{user ID}/`    
+- Update own profile*+ `GET /api/profile/{user ID}/`    
+![image](https://user-images.githubusercontent.com/94964514/159491699-71dc50bf-ffed-4ff6-a008-4aa8c04e3608.png)
+- Delete user* `DELETE /api/profile/{user ID}/`
 
-#### Mapbox Geocode API
-Enables serach for address on the map. Container props for limited search for Uk & Ireland and fuzzy match.         
-`GET https://api.mapbox.com/geocoding/v5/mapbox.places/**{___search_text____}**.json?country=gb,ie&fuzzyMatch=true&access_token=**{_mapbox_token_}**`
+#### Regions & Categories
+For the purpose of populateing drop down sellect forms
+- Get all regions `Get /api/regions/`
+- Get all categories `Get /api/categories/`
 
 ### Front-end components
 
