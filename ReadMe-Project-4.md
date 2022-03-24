@@ -128,13 +128,49 @@ For the purpose of populating drop down select forms
 
 #### Nav-Bar
 
+Deskop:       
+<img width="1298" alt="image" src="https://user-images.githubusercontent.com/94964514/159913196-98bb7182-6718-41ec-957a-57552f3a9ebe.png">
+
+Mobile:       
+<img width="768" alt="image" src="https://user-images.githubusercontent.com/94964514/159913271-30318b1c-288d-44e5-9b9e-b111d5cd3328.png">
+
+
 #### Home page
+
+Dark mode on Banner:
+
+![Dark mode on banner](https://user-images.githubusercontent.com/94964514/159914783-97dcf0fc-5a71-48db-bfbe-b86f4de0d8d0.gif)
+
+Carousel:
+
+![Carousel gif](https://user-images.githubusercontent.com/94964514/159914218-7b69cf6f-5dac-4441-9389-4cc0aa2def0a.gif)
+
 
 #### Showcase
 
-#### Gem Form
+Main:     
+
+![Showcase top](https://user-images.githubusercontent.com/94964514/159915319-59b1c998-dbf9-4caf-b3de-f476e96ed78c.gif)
+
+Comment section:      
+
+![Comment gif](https://user-images.githubusercontent.com/94964514/159915927-b1e9d24e-2f8c-4015-bef0-1630377adac4.gif)
+
+#### Search Page
+
+![SearchPage](https://user-images.githubusercontent.com/94964514/159916656-bea7c970-a8c9-4a5e-af53-09a02daaf02d.gif)
+
+#### Dashbaord page
+
+![Dashboard](https://user-images.githubusercontent.com/94964514/159918084-23fb5a89-c78d-46ac-bfc1-8a4491cfc28c.gif)
+
+Form Errors:
+
+![Toast](https://user-images.githubusercontent.com/94964514/159918902-3b12a220-aa9f-407f-b410-db8ead8d8c70.gif)
 
 #### Profile Page
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/94964514/159917150-55d74e84-6eb2-4008-bc23-9ab2931da77a.png">
 
 ### Styling
 
