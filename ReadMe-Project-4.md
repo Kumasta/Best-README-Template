@@ -21,7 +21,7 @@ Contributors: Mayur Kumar, Bashar Othman
       - [Home Page](#home-page)
       - [Showcase](#showcase)
       - [Search Page](#search-page)
-      - [Dashboard Page](#dashbaord-page)
+      - [Dashboard Page](#dashboard-page)
       - [Profile Page](#profile-page)
       - [Styling](#styling)
       - [Seeding](#seeding)
@@ -129,8 +129,12 @@ For the purpose of populating drop down select forms
 
 #### Nav-Bar
 
-Deskop:       
+Navbar houses 4 main sections. The brand, the text search bar, colour mode toggle and navigation link buttons. In desktop view as seen in the image below, links to register/login will change to profile and/or dashboard and, logout when user is logged in. If user is not verified then the dashboard link will not display. When the user types into the search bar hit search, the page will navigate to the search page and pass the search text state with it.      
+
+Desktop:       
 <img width="1298" alt="image" src="https://user-images.githubusercontent.com/94964514/159913196-98bb7182-6718-41ec-957a-57552f3a9ebe.png">
+
+In mobile view, nav links are moved into a drop down opened by the burger button.     
 
 Mobile:       
 <img width="768" alt="image" src="https://user-images.githubusercontent.com/94964514/159913271-30318b1c-288d-44e5-9b9e-b111d5cd3328.png">
@@ -138,20 +142,27 @@ Mobile:
 
 #### Home page
 
+Home page in its current version houses 2 parts, the site banner and giveaway carousel. As we made the site with charak for all components, the dark mode taggle will invert all colours with their default unless specified, as the banner was imported as an image, it would not be affected when the colour changes. To get around this, I made the banner background transparent so it takes on the background colour of the page.  
+
 Dark mode on Banner:
 
 ![Dark mode on banner](https://user-images.githubusercontent.com/94964514/159914783-97dcf0fc-5a71-48db-bfbe-b86f4de0d8d0.gif)
 
 Carousel:
 
+The carousel was made with a Chakra carousel prototype and is currently populated with a card map from all the records in the giveaway GET all requests. The carousel moves from either drag/swipe or the arrow buttons below. By the end of the build time, image normalisation was not fully complete and needs to be addressed as images can be uploaded in any size or ratio at this time. Some pictures bleed into the bottom of the cards in mobile view.     
+
 ![Carousel gif](https://user-images.githubusercontent.com/94964514/159914218-7b69cf6f-5dac-4441-9389-4cc0aa2def0a.gif)
 
 
 #### Showcase
 
+From the showcase, users can view all information about the giveaway. Including an end date as well as a live countdown to that end date. If the end date has passed, the countdown will switch to a 'Giveaway Ended' text. Logged in users can also add the giveaway to their watch list by hitting the button, this will automatically add the giveaway ID to their array field and add the users ID to the giveaway watching array field. The feedback is given immediately by making the GET request again and populating the watcher list. Users can also follow a verified by clicking their username (Not a clear feature in this version) as seen below. Following a user at this stage has no effect for the User but will show up for the verified user at this stage.      
 Main:     
 
-![Showcase top](https://user-images.githubusercontent.com/94964514/159915319-59b1c998-dbf9-4caf-b3de-f476e96ed78c.gif)
+![Showcase top](https://user-images.githubusercontent.com/94964514/159915319-59b1c998-dbf9-4caf-b3de-f476e96ed78c.gif)    
+
+Logged in users can leave comments by typing into the comment box that only appears when logged in. Otherwise site visitors will see a prompt to login instead. If the user is the owner of a comment, they will see options to either edit or delete their comment with a popover prompt.    
 
 Comment section:      
 
@@ -159,33 +170,43 @@ Comment section:
 
 #### Search Page
 
+When on the search page, it will bring up all the giveaways on the site, users will be able to sort by several methods and by category drop down. Users can also type in text into the search bar to filter down the results.     
+
 ![SearchPage](https://user-images.githubusercontent.com/94964514/159916656-bea7c970-a8c9-4a5e-af53-09a02daaf02d.gif)
 
-#### Dashbaord page
+#### Dashboard page
+If a verified user is logged in, they will be able to go to their dashboard. Here they can manage their giveaways and create new ones. They will also be able to see how many people are following them 
 
 ![Dashboard](https://user-images.githubusercontent.com/94964514/159918084-23fb5a89-c78d-46ac-bfc1-8a4491cfc28c.gif)
 
 Form Errors:
 
+From the giveaway form, if there is missing or unvalid data in a form field, 'toast' popup errors appear to indicate to the user that there is an issue with their new or updated giveaway form. 
+
 ![Toast](https://user-images.githubusercontent.com/94964514/159918902-3b12a220-aa9f-407f-b410-db8ead8d8c70.gif)
 
 #### Profile Page
+
+Profile page is built from the same components as the dashboard but currently has less features. Users can see the giveaways they are following and in the future they will also be able to update their profile details. 
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/94964514/159917150-55d74e84-6eb2-4008-bc23-9ab2931da77a.png">
 
 ### Styling
 
+For this project, we did not use any CSS files. We relied on inline styling and native chakra features. We needed to import some books in order to achieve the colour change toggle. On the index page we needed to import `ColourModeScript`
+
 ![image](https://user-images.githubusercontent.com/94964514/159956709-3ecb7c7a-6965-4e9b-a94c-92ad3b6125b7.png)
+
+The colour toggle button calls a functions from the `useColorMode` hook 
+
 ![image](https://user-images.githubusercontent.com/94964514/159956846-9947eb93-a026-4fd6-b597-1b20230945ca.png)
+
+We used the native colour values for the majority of the build but for certain buttons and tags, we had to create a colour variable to store the colour for light and dark mode for the system to toggle between. 
+
 ![image](https://user-images.githubusercontent.com/94964514/159956943-11d5b054-ad25-4f62-bd54-7e718629eda2.png)
-
-
-### Seeding
 
 ## Challenges
 
 ## Future Improvements / Changes
 
 ## Main Takeaways
-
-
