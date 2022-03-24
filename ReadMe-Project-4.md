@@ -20,7 +20,8 @@ Contributors: Mayur Kumar, Bashar Othman
       - [Nav-Bar](#nav-bar)
       - [Home Page](#home-page)
       - [Showcase](#showcase)
-      - [Gem Form](#gem-form)
+      - [Search Page](#search-page)
+      - [Dashboard Page](#dashbaord-page)
       - [Profile Page](#profile-page)
       - [Styling](#styling)
       - [Seeding](#seeding)
@@ -173,6 +174,11 @@ Form Errors:
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/94964514/159917150-55d74e84-6eb2-4008-bc23-9ab2931da77a.png">
 
 ### Styling
+
+![image](https://user-images.githubusercontent.com/94964514/159956709-3ecb7c7a-6965-4e9b-a94c-92ad3b6125b7.png)
+![image](https://user-images.githubusercontent.com/94964514/159956846-9947eb93-a026-4fd6-b597-1b20230945ca.png)
+![image](https://user-images.githubusercontent.com/94964514/159956943-11d5b054-ad25-4f62-bd54-7e718629eda2.png)
+
 
 ### Seeding
 
